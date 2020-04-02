@@ -5,58 +5,30 @@ admin_path: admin
 webhook_url: https://api.stackbit.com/project/5e85d8b89673b90014b78fff/webhook/forestry
 sections:
 - type: document
-  path: _config.yml
-  label: Config
+  path: Startseite.yml
+  label: Startseite
   templates:
   - config
 - type: document
-  path: _data/header.yml
-  label: Header Configuration
+  path: _data/fastreceipes.yml
+  label: schnelle Rezepte
   templates:
   - header
 - type: document
-  path: _data/contact.yml
-  label: Contact Configuration
+  path: _data/receipeswithmeet.yml
+  label: Rezepte mit Fleisch
   templates:
   - contact
 - type: document
-  path: _data/social.yml
-  label: Social Configuration
+  path: _data/vegetarianreceipesl.yml
+  label: Vegetarische Rezepte
   templates:
   - social
 - type: document
-  path: _data/footer.yml
-  label: Footer Configuration
+  path: _data/verganreceipes.yml
+  label: Vegane Rezepte
   templates:
   - footer
-- type: document
-  path: index.md
-  label: Home
-  templates:
-  - home
-- type: directory
-  path: ''
-  label: Page
-  create: all
-  match: "**/*.md"
-  exclude: "{_posts/**,README.md,LICENSE.md,index.md,elements.md}"
-  templates:
-  - page
-- type: jekyll-posts
-  label: Post
-  create: all
-  templates:
-  - post
-- type: document
-  path: elements.md
-  label: Elements
-  templates:
-  - elements
-- type: document
-  path: _data/menus.yml
-  label: Site Menus
-  templates:
-  - site_menus
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''

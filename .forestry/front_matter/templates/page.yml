@@ -18,7 +18,3 @@ fields:
   default: page
   config:
     required: true
-pages:
-- consequat-dolor.md
-- generic.md
-- tempus-etiam.md
