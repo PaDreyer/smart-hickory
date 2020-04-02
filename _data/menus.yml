@@ -1,1 +1,12 @@
-{}
+---
+main:
+- title: Ipsum veroeros
+  weight: 2
+- title: Home
+  weight: 1
+- title: Tempus etiam
+  weight: 3
+- title: Consequat dolor
+  weight: 4
+- title: Elements
+  weight: 5
